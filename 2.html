@@ -1,21 +1,36 @@
 <!doctype html>
 <html>
 <head>
-<title>댕댕이의 코딩 공부-CSS</title>
-<meta charset="utf8">
+  <title>댕댕이의 코딩 공부-CSS</title>
+  <meta charset="utf8">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
-<ol>
-  <li><a href="1.html"><u>HTML</u></a></li>
-  <li><a href="2.html"><u>CSS</u></a></li>
-  <li><a href="3.html"><u>JavaScript</u></a></li>
-</ol>
-<h2>CSS 란?</H2>
-<p>HTML 등의 마크업 언어로 작성된 문서가 실제로 웹사이트에 표현되는 방법을 정해주는 언어.</p>
-<p>CSS의 C가 Cascading의 약자인데, 이는 상위 요소의 스타일 속성을 자손 요소들에게 상속시켜주는 모습이
- DOM 트리구조에서 마치 폭포수처럼 내려가는 모습을 닮았기 때문이다.</p>
-  <p><div id="disqus_thread"></div>
+  <div id="grid">
+      <ol>
+        <li><a href="1.html">HTML</a></li>
+        <li><a href="2.html" id="active">CSS</a></li>
+        <li><a href="3.html">JavaScript</a></li>
+      </ol>
+      <!--
+        <h1><a href="index.html"><font color="red">WEB</font></a></h1>
+      <ol>
+        <li><a href="1.html"><u><font color="red">HTML</font></u></a></li>
+        <li><a href="2.html"><u><font color="red">CSS</font></u></a></li>
+        <li><a href="3.html"><u><font color="red">JavaScript</font></u></a></li>
+      </ol>
+      -->
+      <div id="article">
+        <h2>CSS 란?</H2>
+        <p>Cascading Style Sheet의 약자이다.<br>
+           CSS는 문서의 콘텐츠와 레이아웃, 글꼴 및 시각적 요소들로 표현되는
+           문서의 외관(디자인)을 분리하기 위한 목적으로 만들어졌다.</p>
+      </div>
+  </div>
+
+
+ <p><div id="disqus_thread"></div>
 <script>
 
 /**
@@ -35,8 +50,8 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the
-  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+ <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </p>
-  
+
 </body>
 </html>
