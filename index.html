@@ -4,20 +4,27 @@
     <meta charset="utf8">
     <title>생활코딩 WEB 따라하기</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-154690238-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154690238-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'UA-154690238-1');
-</script>
+      gtag('config', 'UA-154690238-1');
+    </script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="colors.js"></script>
 
   </head>
   <body>
 
       <h1><a href="index.html" id="active">WEB</a></h1>
+
+      <input id="night_day" type="button" value="night" onclick="
+      nightDayHandler(this);
+       ">
 
        <div id="grid">
             <ol>
